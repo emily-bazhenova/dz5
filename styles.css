@@ -1,0 +1,115 @@
+.list li {
+  display: inline-block;
+  list-style: none;
+}
+.list-left .list-link {
+  color: black;
+}
+
+.list-center {
+  text-align: center;
+}
+
+.list-center .list-link {
+  color: red;
+}
+
+.list-right {
+  text-align: right;
+}
+
+.list-right .list-link {
+  color: green;
+}
+
+li {
+  margin-right: 20px;
+}
+.list-link {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+.font-popins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-popins-100 {
+  font-weight: 100;
+}
+
+.font-popins-300 {
+  font-weight: 300;
+}
+
+.font-popins-400 {
+  font-weight: 400;
+}
+
+.font-popins-700 {
+  font-weight: 700;
+}
+
+.font-akronim {
+  font-family: "Akronim";
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Akronim";
+  src: url("./fonts/Akronim-Regular.woff") format("woff");
+}
+
+.text {
+  border-radius: 10px;
+  margin: 25px 0;
+}
+
+.text-left {
+  background-color: rgb(142, 177, 242);
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
+.text-center {
+  background-color: rgb(31, 54, 113);
+  color: bisque;
+  text-align: center;
+}
+
+.text-right {
+  background-color: rgb(86, 126, 160);
+  color: white;
+  text-align: right;
+}
+
+.hover-link {
+  color: rgb(0, 0, 0);
+}
+
+.hover-link-red:hover {
+  color: red;
+}
+
+.hover-link-blue:hover {
+  color: blue;
+}
+
+.hover-link-green:hover {
+  color: green;
+}
+
+.hover-link-yellow:hover {
+  color: yellow;
+}
+
+.hover-link-grey:hover {
+  color: grey;
+}
